@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo-registro.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <form id="registroUsuario" action="validacion.php"
+    method="post" enctype="multipart/form-data">   
+
+    <h1>Registro de usuario</h1>
+   
+        <input type="text" name="usuario" placeholder="Ingresa un nombre de usuario" maxlength="40" required><br>
+   
+        <input type="text" name="email" placeholder="Ingresa tu correo electronico" maxlength="40" required ><br>
+        
+        <input type="password" name="pass" placeholder="Ingresa una contraseña" maxlength="40" required><br>
+ 
+     <input type="submit" value="Registrate" name="btnRegistrate" >
+     <p>¿Ya tienes una cuenta? <a href="iniciarSesion.html"> Iniciar Sesión </a></p>
+     <a href="../index.html">Regresar a la página</a>
+
+    </div>
+    
+</form>
+</body>
+</html>
